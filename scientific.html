@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scientific Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="calc wide">
+    <a class="back" href="index.html">Back</a>
+    <h1>Scientific Calculator</h1>
+    <div class="display">
+      <div id="expr"></div>
+      <div id="result">0</div>
+    </div>
+    <div class="mode">
+      <button id="modeBtn" type="button">Mode: Degrees</button>
+    </div>
+    <div class="keys sci" id="keys">
+      <button class="fn" data-v="sin(">sin</button>
+      <button class="fn" data-v="cos(">cos</button>
+      <button class="fn" data-v="tan(">tan</button>
+      <button class="fn" data-v="log(">log</button>
+      <button class="fn" data-v="ln(">ln</button>
+      <button class="fn" data-v="√(">√</button>
+      <button class="fn" data-v="^2">x²</button>
+      <button class="fn" data-v="^">xʸ</button>
+      <button class="fn" data-v="!">n!</button>
+      <button class="fn" data-v="π">π</button>
+      <button class="fn" data-v="e">e</button>
+      <button class="fn" data-v="(">(</button>
+      <button class="fn" data-v=")">)</button>
+      <button class="fn" data-a="clear">C</button>
+      <button class="fn" data-a="back">Del</button>
+      <button data-v="7">7</button>
+      <button data-v="8">8</button>
+      <button data-v="9">9</button>
+      <button class="op" data-v="÷">÷</button>
+      <button class="op" data-v="%">%</button>
+      <button data-v="4">4</button>
+      <button data-v="5">5</button>
+      <button data-v="6">6</button>
+      <button class="op" data-v="×">×</button>
+      <button class="op" data-v="−">−</button>
+      <button data-v="1">1</button>
+      <button data-v="2">2</button>
+      <button data-v="3">3</button>
+      <button class="op" data-v="+">+</button>
+      <button data-v="0">0</button>
+      <button data-v=".">.</button>
+      <button data-a="ans">Ans</button>
+      <button class="eq wide2" data-a="equals">=</button>
+    </div>
+  </main>
+  <script src="scientific.js"></script>
+</body>
+</html>

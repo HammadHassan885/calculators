@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="calc">
+    <a class="back" href="index.html">Back</a>
+    <h1>Simple Calculator</h1>
+    <div class="display">
+      <div id="history"></div>
+      <div id="screen">0</div>
+    </div>
+    <div class="keys" id="keys">
+      <button class="fn" data-a="clear">C</button>
+      <button class="fn" data-a="back">Del</button>
+      <button class="fn" data-a="percent">%</button>
+      <button class="op" data-a="op" data-v="/">÷</button>
+      <button data-a="num" data-v="7">7</button>
+      <button data-a="num" data-v="8">8</button>
+      <button data-a="num" data-v="9">9</button>
+      <button class="op" data-a="op" data-v="*">×</button>
+      <button data-a="num" data-v="4">4</button>
+      <button data-a="num" data-v="5">5</button>
+      <button data-a="num" data-v="6">6</button>
+      <button class="op" data-a="op" data-v="-">−</button>
+      <button data-a="num" data-v="1">1</button>
+      <button data-a="num" data-v="2">2</button>
+      <button data-a="num" data-v="3">3</button>
+      <button class="op" data-a="op" data-v="+">+</button>
+      <button data-a="sign">±</button>
+      <button data-a="num" data-v="0">0</button>
+      <button data-a="num" data-v=".">.</button>
+      <button class="eq" data-a="equals">=</button>
+    </div>
+  </main>
+  <script src="simple.js"></script>
+</body>
+</html>
